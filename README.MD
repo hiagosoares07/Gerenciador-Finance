@@ -91,7 +91,7 @@ improvement/seu-nome/melhoria
 Exemplo:
 
 ```bash
-improvement/VictorVB/layout-home
+improvement/hiagosoares07/layout-home
 ```
 
 ## Fluxo de contribuição
@@ -179,7 +179,7 @@ git push origin <seu-branch>
 Exemplo:
 
 ```bash
-git push origin feature/VictorVB/login-e-registro
+git push origin feature/hiagosoares07/login-e-registro
 ```
 
 Após isso, no site do Github, na página do repositório, aparecerá uma opção para abrir um **Pull Request**.
