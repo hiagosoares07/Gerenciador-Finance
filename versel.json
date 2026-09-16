@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "buildCommand": "python Gerenciador-Finance/manage.py collectstatic --noinput",
+  "builds": [
+    { "src": "api/index.py", "use": "@vercel/python" },
+    { "src": "i9tmg/staticfiles/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    {
+      "src": "/static/(.*)",
+      "dest": "/Gerenciador-Finance/staticfiles/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.py"
+    }
+  ]
+}
