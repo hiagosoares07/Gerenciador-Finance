@@ -67,7 +67,7 @@ feature/seu-nome/funcionalidade
 Exemplo:
 
 ```bash
-feature/VictorVB/login-cadastro-de-usuarios
+feature/hiagosoares07/login-cadastro-de-usuarios
 ```
 
 ### Correções
@@ -79,7 +79,7 @@ fix/seu-nome/correcao
 Exemplo:
 
 ```bash
-fix/VictorVB/pagina-login
+fix/hiagosoares07/pagina-login
 ```
 
 ### Melhorias
@@ -111,7 +111,7 @@ git checkout -b <nome-do-branch>
 Exemplo:
 
 ```bash
-git checkout -b feature/VictorVB/login-cadastro-de-usuarios
+git checkout -b feature/hiagosoares07/login-cadastro-de-usuarios
 ```
 
 ### 3. Realizar alterações e commits
@@ -126,8 +126,8 @@ Exibe os arquivos alterados no repositório. Em vermelho o que foi alterado e em
 Exemplo:
 
 ```bash
-C:Users\VictorVB\Desktop\projeto_django> git status
-No ramo feature/VictorVB/login-e-registro
+C:Users\hiagosoares07\Desktop\projeto_django> git status
+No ramo feature/hiagosoares07/login-e-registro
 Changes not staged for commit:
   (utilize "git add <arquivo>..." para atualizar o que será submetido)
   (use "git restore <file>..." to discard changes in working directory)
